@@ -62,7 +62,7 @@ int main() {
     std::cout << "Enter your PIN: ";
     std::cin >> pin;
 
-    // Initialize ATM with a dummy account for demonstration
+    
     ATM atm(accountNumber, pin, 1000.00);
 
     std::string enteredPin;
@@ -99,3 +99,4 @@ int main() {
 
     return 0;
 }
+
